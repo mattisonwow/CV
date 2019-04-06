@@ -1,0 +1,9 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+
+.icon { width: 2.5em; height: 2.5em; vertical-align: -0.15em; fill: white; overflow: hidden; }
+
+
+.navtop{ height: 60px; display: flex; background: rgba(0,0,0,0.7); justify-content: flex-start; align-items: center; position: relative;}
+.navtop .nav_icon{ position: absolute; right: 10px; cursor: pointer; }
+.navtop .nav_logo{ height: 50px; }
