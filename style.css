@@ -1,9 +1,22 @@
 *{ margin: 0; padding: 0; box-sizing: border-box;}
-
-
+*::after,*::before{box-sizing: border-box;}
+ol,ul{ list-style: none;}
 .icon { width: 2.5em; height: 2.5em; vertical-align: -0.15em; fill: white; overflow: hidden; }
 
 
 .navtop{ height: 60px; display: flex; background: rgba(0,0,0,0.7); justify-content: flex-start; align-items: center; position: relative;}
 .navtop .nav_icon{ position: absolute; right: 10px; cursor: pointer; }
 .navtop .nav_logo{ height: 50px; }
+
+section.message > ol{
+    max-width: 700px;
+    margin: 0 auto;
+    border-top: 1px solid #DDD;
+}
+section.message > ol > li {
+    padding: 16px;
+    border-bottom: 1px solid #DDD;
+}
+section.message>form{
+    text-align: center;
+}
